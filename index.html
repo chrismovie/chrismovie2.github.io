@@ -1,0 +1,68 @@
+---
+title: Home
+description: The latest app to help you find new friends with common interests.
+image:
+bottom_image: https://unsplash.it/2000/1322?a=.png
+---
+
+<section class="hero" style="background-image: url({% if page.image %} { include relative-src.html src=page.image } {% endif %})">
+	<div class="inner-hero text-container">
+		<div class="hero-text-container">
+            <h1><img src="images/logo/cc-logo-full.svg"
+                alt="logo" /></h1>
+<!--			<h1 class="editable">krzysztofplonka<span class="blue">.</span>pl</h1> -->
+			<p class="subtext editable">CREATE BEAUTIFUL LAYOUTS</p>
+<!--			<div class="cta button alt"><a href="#">Join Now</a></div> -->
+		</div>
+	</div>
+	<div class="learn-more"><a href="#learn-more">Learn more <span class="arrow">&#x25BC;</span></a></div>
+</section>
+
+<div class="content">
+	<section class="info" id="learn-more">
+		<div class="container flex">
+			<div class="text">
+				<h2 class="editable">Introduce</h2>
+				<p class="editable">Tools to build website today are amazing. I'm big fan of Jekyll and uncovenshional method of creating website.</p>
+			</div>
+            <div class="">
+				<img class="image editable" src="/images/lee-campbell-106610.jpg" alt="Screenshot" />
+			</div>
+            </div>    
+	</section>
+
+	<section class="info">
+		<div class="container flex">
+			<div class="text">
+				<h2 class="editable">Design</h2>
+				<p class="editable">I love fresh design and simple solution. Primarily clarity and readability.</p>
+			</div>
+			<div class="">
+				<img class="image editable" src="/images/lauren-mancke-60627.jpg" alt="Screenshot" />
+			</div>
+		</div>
+	</section>
+
+	<section class="info">
+		<div class="container flex">
+			<div class="text">
+				<h2 class="editable">Developing</h2>
+				<p class="editable"> In their daily work I use editor of course PHPStorm and Brakets, Gulp and Git.</p>
+			</div>
+			<div class="">
+                <video class="image" id="sampleMovie" width="600" height="auto" src="/video/developing.mp4" loop autoplay></video>
+			<!--	<img class="image editable" src="/images/lee-campbell-106610.jpg" alt="Screenshot" /> -->
+			</div>
+		</div>
+	</section>
+
+	<section class="hero" style="background-image: url({% include relative-src.html src=page.bottom_image %})">
+		<div class="inner-hero text-container">
+			<div class="hero-text-container">
+				<h2 class="editable">Find your buddy today</h2>
+				<p class="subtext editable">It's free, fun and an exciting way to meet new people.</p>
+				<div class="cta button alt"><a href="#">Join Now</a></div>
+			</div>
+		</div>
+	</section>
+</div>

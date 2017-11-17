@@ -1,0 +1,4 @@
+.js-ripple{position:absolute;width:400px;height:400px;margin-left:-25px;margin-top:-25px;border-radius:50%;background:#000000;-webkit-animation:inAnim 4s ease forwards;animation:inAnim 4s ease forwards;z-index:1}@-webkit-keyframes inAnim{0%{-webkit-transform:scale(1);transform:scale(1);opacity:.1}to{-webkit-transform:scale(30);transform:scale(30);opacity:0}}@keyframes inAnim{0%{-webkit-transform:scale(1);transform:scale(1);opacity:.1}to{-webkit-transform:scale(30);transform:scale(30);opacity:0}}
+
+.grid-item:hover .project_content hr{width:60px;transition:all ease 500ms}
+
